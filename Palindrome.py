@@ -1,0 +1,11 @@
+
+samplePhrase = "A man, a plan, a cat, a ham, a yak, a yam, a hat, a canal-Panama!"
+
+givenPhrase = raw_input("\nPlease input a phrase:(Press ENTER to use the sample phrase) ")
+
+string = givenPhrase.lower()
+
+if string == string[::-1]:
+    print "\nWow!, The phrase is a Palindrome!"
+else:
+    print "\nSorry, The given phrase is not a Palindrome."
